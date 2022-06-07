@@ -1,0 +1,31 @@
+@media (max-width:768px){
+    #navbar{
+        position: fixed;
+        .nav-content{
+            position: fixed;
+            .logo{
+                display: none;
+            }
+        }
+    }
+
+    #cards{
+        position: absolute;
+        .card-content{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            justify-content: center;
+            justify-items: center;
+        }
+    }
+    #change-color{
+        position: fixed;
+        margin-top:1400px;
+        // margin-bottom: 50px;
+        z-index: 1;
+        .change-content{
+            display: flex;
+        }
+        
+    }
+}
